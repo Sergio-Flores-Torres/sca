@@ -1,0 +1,22 @@
+{
+  "name": "sca-arbiter",
+  "version": "1.0.0",
+  "description": "The arbiter cli for the SCA tool.",
+  "main": "index.js", 
+  "scripts": {
+    "build": "tsc",
+    "start": "OPERATION=x URL=http://localhost:8899 PROGRAMID=7f3bKvFg9WrUr3RGig5gGj8GnEFYMML86ffgxaH19ft1 GATEWAY=x node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sergio@saft.industries",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/buffer-layout-utils": "^0.2.0",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/web3.js": "^1.91.4",
+    "borsh": "^2.0.0",
+    "buffer": "^6.0.3",
+    "typescript": "^5.4.4"
+  }
+}
